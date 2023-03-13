@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dae1c3a7-702b-4282-adb9-b9729168462b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MwuflAlgWX1AIJdvvC8kG5nJea" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Legion\Downloads\spring-boot-unit-testing-main\3.00-starting-project\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GradeBookControllerTest.createStudentHttpRequest">
+    <configuration name="GradeBookControllerTest.createStudentHttpRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mvc-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
+      <option name="METHOD_NAME" value="createStudentHttpRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeBookControllerTest.getStudentsHttpRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mvc-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
+      <option name="METHOD_NAME" value="getStudentsHttpRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentAndGradesServiceTest.deleteStudentService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mvc-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.StudentAndGradesServiceTest" />
+      <option name="METHOD_NAME" value="deleteStudentService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentAndGradesServiceTest.getGradeBookService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mvc-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.StudentAndGradesServiceTest" />
+      <option name="METHOD_NAME" value="getGradeBookService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentAndGradesServiceTest.isStudentNullCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mvc-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.StudentAndGradesServiceTest" />
+      <option name="METHOD_NAME" value="isStudentNullCheck" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MvcTestingExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot-mvc-testing-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.springmvc.MvcTestingExampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GradeBookControllerTest.createStudentHttpRequest" />
+        <item itemvalue="JUnit.GradeBookControllerTest.getStudentsHttpRequest" />
+        <item itemvalue="JUnit.StudentAndGradesServiceTest.getGradeBookService" />
+        <item itemvalue="JUnit.StudentAndGradesServiceTest.deleteStudentService" />
+        <item itemvalue="JUnit.StudentAndGradesServiceTest.isStudentNullCheck" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dae1c3a7-702b-4282-adb9-b9729168462b" name="Changes" comment="" />
+      <created>1678691071049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678691071049</updated>
+      <workItem from="1678691072423" duration="15013000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
