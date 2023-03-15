@@ -24,10 +24,14 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.when;
+import static org.springframework.test.web.ModelAndViewAssert.assertViewName;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -86,7 +90,27 @@ public class GradeBookControllerTest {
 
         var mav = mvcResult.getModelAndView();
         assert mav != null;
-        ModelAndViewAssert.assertViewName(mav, "index");
+        assertViewName(mav, "index");
+    }
+
+
+    @Test
+    void deleteStudentHttpRequest() throws Exception{
+        assertTrue(studentDao.findById(1).isPresent());
+        var mvcResult = mockMvc.perform(MockMvcRequestBuilders.get("/delete/student/{id}", 1))
+                .andExpect(status().isOk()).andReturn();
+        assertViewName(Objects.requireNonNull(mvcResult.getModelAndView()), "index");
+        assertFalse(studentDao.findById(1).isPresent());
+    }
+
+    @Test
+    void deleteStudentHttpRequestErrorPage() throws Exception {
+        var mvcResult = mockMvc.perform(MockMvcRequestBuilders
+                .get("/delete/student/{id}", 0))
+                .andExpect(status().isOk()).andReturn();
+
+        var mav = mvcResult.getModelAndView();
+        assertViewName(mav, "error");
     }
 
     @Test
@@ -100,7 +124,7 @@ public class GradeBookControllerTest {
 
         var mav = mvcResult.getModelAndView();
         assert mav != null;
-        ModelAndViewAssert.assertViewName(mav, "index");
+        assertViewName(mav, "index");
         var verifyStudent = studentDao.findByEmailAddress("chad.darby@luv2code_school.com");
         assertNotNull(verifyStudent);
     }

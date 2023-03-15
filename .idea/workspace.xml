@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae1c3a7-702b-4282-adb9-b9729168462b" name="Changes" comment="" />
+    <list default="true" id="dae1c3a7-702b-4282-adb9-b9729168462b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/controller/GradebookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springmvc/controller/GradebookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com.luv2code.springmvc/GradeBookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.luv2code.springmvc/GradeBookControllerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +23,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,32 +43,39 @@
     </option>
   </component>
   <component name="ProjectId" id="2MwuflAlgWX1AIJdvvC8kG5nJea" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d38b5d220051e3ed95d625107b19e1f4&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Legion\Downloads\spring-boot-unit-testing-main\3.00-starting-project\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GradeBookControllerTest.createStudentHttpRequest">
+  <component name="RunManager" selected="JUnit.GradeBookControllerTest.deleteStudentHttpRequestErrorPage">
     <configuration name="GradeBookControllerTest.createStudentHttpRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-mvc-testing-demo" />
       <extension name="coverage">
@@ -71,6 +87,38 @@
       <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
       <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
       <option name="METHOD_NAME" value="createStudentHttpRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeBookControllerTest.deleteStudentHttpRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mvc-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
+      <option name="METHOD_NAME" value="deleteStudentHttpRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeBookControllerTest.deleteStudentHttpRequestErrorPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mvc-testing-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.GradeBookControllerTest" />
+      <option name="METHOD_NAME" value="deleteStudentHttpRequestErrorPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,22 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentAndGradesServiceTest.deleteStudentService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mvc-testing-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.springmvc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.StudentAndGradesServiceTest" />
-      <option name="METHOD_NAME" value="deleteStudentService" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentAndGradesServiceTest.getGradeBookService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-mvc-testing-demo" />
       <extension name="coverage">
@@ -124,22 +156,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentAndGradesServiceTest.isStudentNullCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mvc-testing-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luv2code.springmvc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luv2code.springmvc" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.springmvc.StudentAndGradesServiceTest" />
-      <option name="METHOD_NAME" value="isStudentNullCheck" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MvcTestingExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-mvc-testing-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luv2code.springmvc.MvcTestingExampleApplication" />
@@ -149,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GradeBookControllerTest.createStudentHttpRequest" />
+        <item itemvalue="JUnit.GradeBookControllerTest.deleteStudentHttpRequestErrorPage" />
+        <item itemvalue="JUnit.GradeBookControllerTest.deleteStudentHttpRequest" />
         <item itemvalue="JUnit.GradeBookControllerTest.getStudentsHttpRequest" />
+        <item itemvalue="JUnit.GradeBookControllerTest.createStudentHttpRequest" />
         <item itemvalue="JUnit.StudentAndGradesServiceTest.getGradeBookService" />
-        <item itemvalue="JUnit.StudentAndGradesServiceTest.deleteStudentService" />
-        <item itemvalue="JUnit.StudentAndGradesServiceTest.isStudentNullCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +181,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678691071049</updated>
-      <workItem from="1678691072423" duration="15013000" />
+      <workItem from="1678691072423" duration="16121000" />
+      <workItem from="1678767195932" duration="21000" />
+      <workItem from="1678879887065" duration="3649000" />
     </task>
     <servers />
   </component>
