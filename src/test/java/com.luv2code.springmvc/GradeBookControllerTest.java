@@ -93,7 +93,6 @@ public class GradeBookControllerTest {
         assertViewName(mav, "index");
     }
 
-
     @Test
     void deleteStudentHttpRequest() throws Exception{
         assertTrue(studentDao.findById(1).isPresent());

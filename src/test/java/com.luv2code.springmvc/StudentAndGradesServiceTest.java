@@ -1,6 +1,12 @@
 package com.luv2code.springmvc;
 
 import com.luv2code.springmvc.models.CollegeStudent;
+import com.luv2code.springmvc.models.HistoryGrade;
+import com.luv2code.springmvc.models.MathGrade;
+import com.luv2code.springmvc.models.ScienceGrade;
+import com.luv2code.springmvc.repository.HistoryGradesDao;
+import com.luv2code.springmvc.repository.MathGradeDao;
+import com.luv2code.springmvc.repository.ScienceGradesDao;
 import com.luv2code.springmvc.repository.StudentDao;
 import com.luv2code.springmvc.service.StudentAndGradeService;
 import org.junit.jupiter.api.AfterEach;
@@ -28,6 +34,15 @@ public class StudentAndGradesServiceTest {
     StudentDao studentDao;
 
     @Autowired
+    MathGradeDao mathGradeDao;
+
+    @Autowired
+    ScienceGradesDao scienceGradesDao;
+
+    @Autowired
+    HistoryGradesDao historyGradesDao;
+
+    @Autowired
     StudentAndGradeService studentAndGradeService;
 
     @Autowired
@@ -37,6 +52,12 @@ public class StudentAndGradesServiceTest {
     void insertSampleData(){
         jdbcTemplate.execute("insert into student(id, firstname, lastname, email_address)" +
                 "values (1, 'Eric', 'Roby', 'eric.roby@luv2code_school.com')");
+        jdbcTemplate.execute("insert into math_grade(id, student_id, grade)" +
+                "values (1, 1, 99.0)");
+        jdbcTemplate.execute("insert into science_grade(id, student_id, grade)" +
+                "values (1, 1, 99.0)");
+        jdbcTemplate.execute("insert into history_grade(id, student_id, grade)" +
+                "values (1, 1, 99.0)");
     }
 
     @Test
@@ -73,8 +94,38 @@ public class StudentAndGradesServiceTest {
         assertEquals(5, collegeStudents.size());
     }
 
+    @Test
+    public void createGradeService(){
+        //create the grade page
+        assertTrue(studentAndGradeService.createGrade(80.50, 1, "math"));
+        assertTrue(studentAndGradeService.createGrade(80.50, 1, "science"));
+        assertTrue(studentAndGradeService.createGrade(80.50, 1, "history"));
+
+        //get all grades with studentID
+        Iterable<MathGrade> mathGrades = mathGradeDao.findGradeByStudentId(1);
+        Iterable<ScienceGrade> scienceGrades = scienceGradesDao.findScienceGradeByStudentId(1);
+        Iterable<HistoryGrade> historyGrades = historyGradesDao.findHistoryGradeByStudentId(1);
+        //verify there is grades
+        assertTrue(mathGrades.iterator().hasNext());
+        assertTrue(scienceGrades.iterator().hasNext());
+        assertTrue(historyGrades.iterator().hasNext());
+    }
+
+    @Test
+    public void createGradeServiceReturnFalse(){
+        assertFalse(studentAndGradeService.createGrade(105, 1, "math"));
+        assertFalse(studentAndGradeService.createGrade(-1, 1, "math"));
+        assertFalse(studentAndGradeService.createGrade(80, 2, "math"));
+        assertFalse(studentAndGradeService.createGrade(80, 2, "literature"));
+
+    }
+
     @AfterEach
     public void setupAfterEachTransaction(){
         jdbcTemplate.execute("delete from student");
+        jdbcTemplate.execute("delete from math_grade");
+        jdbcTemplate.execute("delete from science_grade");
+        jdbcTemplate.execute("delete from history_grade");
+
     }
 }
